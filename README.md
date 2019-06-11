@@ -1,1 +1,1 @@
-# programuj-dziewczyno-challange
+# programuj-dziewczyno-challenge
