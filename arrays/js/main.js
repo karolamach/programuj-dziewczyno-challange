@@ -59,3 +59,21 @@ const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'm
 chores.pop();
 
 console.log(chores)
+
+//More Array Methods
+
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift(); //usuwa z listy pierwszy element
+console.log(groceryList)
+
+groceryList.unshift("popcorn") //dodaje element na poczatek listy
+
+console.log(groceryList);
+
+console.log(groceryList.slice(1, 4)); //dzieli liste argumenty to numer indexu początkowego skladnika listy i ostatniego +1
+
+console.log(groceryList);
+
+const pastaIndex = groceryList.indexOf('pasta'); // pokazuje numer indexu wskazanego elementu
+
+console.log(pastaIndex);
